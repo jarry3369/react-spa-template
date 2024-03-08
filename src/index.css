@@ -1,0 +1,10 @@
+#root > main > section {
+  padding: 0px 120px;
+
+  @media screen and (max-width: 990px) {
+    padding: 0px 80px;
+  }
+  @media screen and (max-width: 375px) {
+    padding: 0px 20px;
+  }
+}
